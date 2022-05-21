@@ -1,0 +1,214 @@
+.kyc{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+
+.kyc_container {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.kyc_leftSide {
+    border: 1px solid gray;
+    flex: 1.5;
+    height: 88vh;
+    /* background-color: red; */
+    
+}
+
+.kyc_left_header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftSide_content_container {
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+.leftSide_content {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+
+.user_image {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.rightUserIMG {
+    width: 70px;
+    height: 70px;
+}
+
+.user_gmail {
+    color: #0C8CE9;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+.user_status {
+    color: #0C8CE9;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+
+.leftSideBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.refute_btn {
+    flex: 1;
+    background: #DF1919;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+
+}
+.verify_btn {
+    flex: 1;
+    background: #0C8CE9;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+
+}
+.fullScreen_btnWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.fullScreen_btn {
+    width: 150px;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.69);
+}
+
+
+
+.kyc_rightSide {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    gap: 20px;
+    height: 88vh;
+}
+
+.kyc_right_header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.darkBlue {
+    color: #0C8CE9;
+}
+
+.kyc_rightSide_1 {
+    border: 1px solid gray;
+    height: 20vh;
+}
+.kyc_rightSide_1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.thirtyPercent {
+    color: #0C8CE9;
+    margin-right: 5px;
+}
+
+.kyc_rightSide_2 {
+    border: 1px solid gray;
+    height: auto;
+    padding: 20px;
+}
+.about_user {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_data {
+    margin-left: 60px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+.viewDetails_btn {
+    padding: 5px 20px;
+    background: #0C8CE9;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.user_slides {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.slideIMGS_container {
+    position: relative;
+}
+
+.slideIMGS_container p {
+    position: absolute;
+    top: 5px;
+    left: 37px;
+    color: #fff;
+}
+
+.slideIMGS {
+    width: 130px;
+    height: auto;
+}
+
+.eyeIcon {
+    position: absolute;
+    right: 46px;
+    top: 60px;
+    width: 40px;
+    height: 25px;
+}
+.rightSideBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.rightSideBtns .refute_btn2 {
+    width: 30%;
+    background: #DF1919;
+    padding: 8px;
+    color: #fff;
+    font-size: 12px;
+}
+.rightSideBtns .verify_btn2 {
+    width: 30%;
+    background: #0C8CE9;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+}

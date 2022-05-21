@@ -1,0 +1,162 @@
+.annoucements {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .announce_leftSide {
+    border: 1px solid #d9d9d9;
+    flex: 0.4;
+    height: 85vh;
+    margin-top: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  }
+  .announce_left_header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .annouce_content_container {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .announce_content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #d9d9d9;
+  }
+  
+  .announce_content h3{
+      font-size: 14px;
+      text-align: justify;
+  }
+  .userImage {
+    width: 30px;
+    height: 30px;
+  }
+  .leftSideBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .refute_btn {
+    flex: 1;
+    background: #df1919;
+    padding: 5px;
+    color: #fff;
+  }
+  .verify_btn {
+    flex: 1;
+    background: #0c8ce9;
+    padding: 5px;
+    color: #fff;
+  }
+  
+  .announce_all{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 14px;
+      cursor: pointer;
+  }
+  
+  .all_btn2{
+      cursor: pointer;
+  }
+  
+  .announce_rightSide {
+    border: 1px solid #d9d9d9;
+    flex: 0.4;
+    height: 85vh;
+    margin-top: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    
+  }
+  .announce_right_header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .announce_right_header .right_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  
+  .announce_right_header .right-icons .ico {
+    margin-left: 5px;
+  }
+  
+  .announce_content_rightContainer .form_main {
+    background-color: #0c8ce9;
+    padding: 25px;
+  }
+  .announce_content_rightContainer .form_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  .announce_content_rightContainer .form_icons img{
+      width: 6%;
+  }
+  
+  .announce_content_rightContainer .form_input{
+      border-bottom: 2px solid #d9d9d9;
+  }
+  
+  .announce_content_rightContainer .form_input input{
+      padding: 20px 50px;
+      
+  }
+  
+  
+  
+  
+  .announce_content_rightContainer .form_btns{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 30px;
+      /* margin-top: 60%; */
+  }
+  
+  .announce_content_rightContainer .form_textarea textarea{
+      padding: 20px 30px;
+  }
+  
+  
+  .announce_content_rightContainer .save_btn{
+      padding: 12px 30px;
+      background-color: #DF1919;
+      color: #fff;
+      cursor: pointer;
+  }
+  .announce_content_rightContainer .send_btn{
+      padding: 12px 40px;
+      background-color: #0C8CE9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      color: #fff;
+      cursor: pointer;
+  }
+  
+  
+  .announce_content_rightContainer img{
+      width: 20%;
+  }
