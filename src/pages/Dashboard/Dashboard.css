@@ -1,24 +1,189 @@
 .dashboard{
     display: flex;
     flex-direction: column;
-    background-color: white;
-
+    /* background-color: white; */
+    width: 100vw;
+    height: 100%;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    /* flex: 1 1 auto; */
+    /* height: calc(150vh-50px); */
 }
 .dashboard-title{
-
-    height: 15%;
+    margin-top: 10px;
+    height: 5%;
     font-size: 25px;
-    width: 500px;
+    width: 40%;
     display: flex;
     font-weight: 500;
     align-items: center;
     justify-content: center;
 
 }
-.dashboard-slider{
-    height: 10%;
+.dashboard-slider{   
+    
+    border-radius: 10px;
+    height: 350px;
     width: 70%;
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    
 }
-.dashboard-slider img{
+
+.slider-contents{
+    height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.swiper {
+    width: 100%;
+    height: 100%; 
+  }
+  
+  .swiper-slide {
+    background : url("../../../public/assets/slider.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+ .slider-button-container{
+     
+     width: 25%;
+     height: 20%; 
+     border-radius: 10px; 
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+ .slider-button-container span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    color: white;
     width: 50%;
+     
+ }
+ .slider-contents h2{
+     font-weight: 500;
+     height: 30%;
+ }
+ .slider-contents h3{
+    font-weight: 500;
+     height: 30%;
+ }
+ .slider-button{
+    position: absolute;
+     height: 20%;
+     width: 16%;
+     background-color: black;
+     color: white;
+     z-index: -1;
+     border-radius: 15px; 
+     opacity: 0.7;
+ }
+
+ .dashboard-charts{
+     display: flex;
+     justify-content: space-between;  
+     width: 70%;
+     height: 60%;
+
+ }
+ .chart{
+     background-color: black;
+     height: 100%;
+     width: 31%;
+     border-radius: 10px;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .chart-container{
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     flex-direction: column;
+     height: 90%;   
+ }
+ .chart-title{
+     height: 15%;
+     font-weight: 400;
+     font-size: 18px
+
+ }
+ .chart-labels{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 10%;
+     width: 120%;
+     border: 1px solid white;
+     font-size: 15px;
+     border-radius: 15px;
+ }
+ .pi-chart{
+     margin-top: 20px;
+     height: 45%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .pi-chart-title{
+     font-size: 18px;
+     font-weight: 500;
+     height: 4%;
+     position: absolute;
+ }
+ .chart-observation{
+     margin-top: 10px;
+     font-size: 14px;
+     color: yellow;
+ }
+ .chart-visit{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 20%;
+     width: 70%;
+     color: white;
+ }
+.chart-labels2{
+    margin-top: 10px;
+}
+.dashboard-graph{
+    width: 70%;
+    height: 40%;
+}
+
+.graph-titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 10%;
+}
+.graph-titles span{
+    font-size: 20px;
+}
+.graph-titles-icon{
+    width: 20%;
+    font-size: 20px;
 }

@@ -6,7 +6,7 @@
 .container{
     display:flex;
 }
-main{
+.main{
     width: 100%;
     padding: 20px;
 }
@@ -38,14 +38,22 @@ main{
     transition: all 0.5s;
 }
 .link:hover{
-    background:lightskyblue;
+    background:white;
     color: #000;
     transition: all 0.5s;
 }
 .active{
-    background: lightskyblue;
+    background: white;
     color: #000;
 }
 .icon, .link_text{
     font-size: 20px;
 }
+
+
+.main_container{
+    display: flex;
+    /* width: 100%; */
+    
+}
+    

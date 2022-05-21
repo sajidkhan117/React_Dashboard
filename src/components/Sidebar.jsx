@@ -1,13 +1,24 @@
 import React, { useState } from 'react';
-import {
-    FaTh,
-    FaBars,
-    FaUserAlt,
-    FaRegChartBar,
-    FaCommentAlt,
-    FaShoppingBag,
-    FaThList
-}from "react-icons/fa";
+// import {
+//     FaTh,
+//     FaBars,
+//     FaUserAlt,
+//     FaRegChartBar,
+//     FaCommentAlt,
+//     FaShoppingBag,
+
+//     FaThList
+// }from "react-icons/fa";
+import {FaBars} from 'react-icons/fa'
+import { MdDashboard } from "react-icons/md";
+import { RiContactsBook2Fill } from "react-icons/ri";
+import { IoMdKey } from "react-icons/io";
+import { IoNotificationsOutline } from "react-icons/io5";
+import { IoPlaySkipForwardOutline } from "react-icons/io5";
+import { GoGift } from "react-icons/go";
+import { RiMessage2Line } from "react-icons/ri";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
+import { RiSettings2Line } from "react-icons/ri";
 import { NavLink } from 'react-router-dom';
 
 
@@ -18,49 +29,54 @@ const Sidebar = ({children}) => {
         {
             path:"/",
             name:"Dashboard",
-            icon:<FaTh/>
+            icon:<MdDashboard/>
         },
         {
-            path:"/Memberships",
+            path:"/memberships",
             name:"Memberships",
-            icon:<FaUserAlt/>
+            icon:<RiContactsBook2Fill/>
         },
         {
             path:"/kyc",
             name:"KYC",
-            icon:<FaRegChartBar/>
+            icon:<IoMdKey/>
+        },
+        {
+            path:"/notifications",
+            name:"Notifications",
+            icon: <IoNotificationsOutline/> 
         },
         {
             path:"/slideshow",
             name:"Slideshow",
-            icon:<FaCommentAlt/>
+            icon:<IoPlaySkipForwardOutline/>
         },
         {
             path:"/referalls",
             name:"Referalls",
-            icon:<FaShoppingBag/>
+            icon: <GoGift/>
         },
         {
             path:"/complaints",
             name:"Complaints",
-            icon:<FaThList/>
+            icon: <RiMessage2Line/>
         },
         {
             path:"/announcements",
             name:"Annoucements",
-            icon:<FaThList/>
+            icon: <HiOutlineSpeakerphone />
         },
         {
             path:"/settings",
             name:"Settings",
-            icon:<FaThList/>
+            icon: <RiSettings2Line/>
         }
     ]
     return (
         <div className="container">
            <div style={{width: isOpen ? "200px" : "50px"}} className="sidebar">
                <div className="top_section">
-                   <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Logo</h1>
+                   <h1 style={{display: isOpen ? "block" : "none"}} className="logo">Khan</h1>
                    <div style={{marginLeft: isOpen ? "50px" : "0px"}} className="bars">
                        <FaBars onClick={toggle}/>
                    </div>
@@ -75,6 +91,8 @@ const Sidebar = ({children}) => {
                }
            </div>
            <main>{children}</main>
+           
+
         </div>
     );
 };

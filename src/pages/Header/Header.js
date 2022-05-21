@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import Profile from './assets/ProfileIMG.png';
 import Logo from './assets/LogoIMG.png';
-import { FaBars, FaSearch, FaAngleDown } from "react-icons/fa";
+import {  FaSearch, FaAngleDown } from "react-icons/fa";
 
 function Header(props) {
   return (
@@ -11,7 +11,7 @@ function Header(props) {
         <img src={Logo} alt="logoIcon" />
       </div>
       <div className="faBars_container">
-        <FaBars className="faBars" />
+        {/* <FaBars className="faBars" /> */}
       </div>
       <div className="faSearch_container">
         <FaSearch className="bsSearch" />
